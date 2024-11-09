@@ -1,0 +1,43 @@
+Discover India's Folk Dances
+This project provides an interactive map to explore the diverse and colorful folk dances from each state of India. Clicking on a state in the SVG map opens a dedicated page with information, images, and links to Wikipedia articles about the dance forms specific to that region.
+
+Project Structure
+index.html: The main entry file containing the interactive map of India. Each state on the map is linked to its respective page with dance information.
+States/: Contains individual HTML files for each state's folk dance. Each file includes:
+The name of the folk dance
+An image representing the dance form
+A brief description
+A link to the Wikipedia page for further reading
+styles.css: The main CSS file for styling the project. It applies styles to the map, individual pages, and all elements to maintain a cohesive look across the website.
+index.js: Contains JavaScript for handling events on the map, such as highlighting states on hover and navigating to state pages on click.
+Usage
+
+Clone the repository:
+
+bash
+git clone https://github.com/username/Discover-India-Folk-Dances.git
+cd Discover-India-Folk-Dances
+
+
+Open the project:
+
+Simply open index.html in a web browser to view the interactive map.
+Explore:
+
+Click on a state in the map to view its famous folk dance. Each state page provides a brief description, an image, and a link to a Wikipedia article.
+
+Technologies Used
+
+HTML & SVG: For the map structure and individual state pages.
+
+CSS: For styling the overall layout, including hover effects on the map.
+
+JavaScript: For adding interactive functionality to the map (in index.js).
+
+Future Enhancements
+Add more states: Continue adding individual HTML pages for each Indian state with details about their folk dances.
+Enhance interactivity: Include more animations or tooltips for better user engagement.
+Add mobile responsiveness: Adjust the SVG map and layout for an improved mobile experience.
+License
+
+This project is licensed under the MIT License.
